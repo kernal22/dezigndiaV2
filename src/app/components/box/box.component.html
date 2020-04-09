@@ -1,0 +1,23 @@
+<div class="services-cards-wrapper row">
+<div class="services-card gradient col-lg-3 col-md-6 col-sm-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s" id="service-card-one" *ngFor="let d of data" (click)="openList()">
+    <i class="fa fa-chevron-down float-right" id="arrow-wrapper"></i>
+    <div class="service-img display-none" id="service-img-one">
+        <!-- <img src="{{service.logo}}" alt="{{service.title}}"> -->
+        <i class="fa fa-{{d.icon}} fa-3x service-img"></i>
+    </div>
+    <div class="services-head" id="services-head">
+        <h2 class="service-title-text">{{d.title}}
+        </h2>
+        <ul class="servies-list mobile-collapse-list" id="service-list">
+            <li>Android and iOS App Development
+            </li>
+            <li>Flutter App Development
+            </li>
+            <li>React Native Development
+            </li>
+            <li>Beautiful APP MVP for Investment
+            </li>
+        </ul>
+    </div>
+</div>
+</div>

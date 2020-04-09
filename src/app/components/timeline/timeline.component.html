@@ -1,0 +1,22 @@
+<section class="timeline-sec andriod-timeline">
+        <div class="container">
+            <div class="page-header">
+                <h2 id="timeline">Benefits of choosing {{stackname}}</h2>
+            </div>
+            <ul class="timeline">
+                <ng-container *ngFor="let t of timeline; let i = index" >
+                    <li [class] = "i%2 !=0 ? 'timeline-inverted' : ''">
+                        <div class="timeline-badge {{t.badgeColoe}}">{{i+1}}</div>
+                        <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">{{t.heading}}</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p>{{t.text}}</p>
+                        </div>
+                        </div>
+                    </li>
+                </ng-container>
+            </ul>
+        </div>
+    </section>

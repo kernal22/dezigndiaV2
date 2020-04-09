@@ -1,0 +1,16 @@
+<div class="row">
+<div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 mt-20" *ngFor="let d of portfolia">
+    <div class="project-card">
+       <div class="bg-image black-overlay"><img [src]="d?.banner"></div>
+       <div class="content-body">
+          <div class="bg-box">
+             <img [src]="d?.logo">
+          </div>
+          <div class="text-section">
+             <h4>{{d?.heading}}</h4>
+             <p>{{d?.note}}</p>
+          </div>
+       </div>
+    </div>
+ </div>
+</div>

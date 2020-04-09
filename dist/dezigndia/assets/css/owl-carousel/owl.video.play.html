@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Page Not Found</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        * {
+            line-height: 1.2;
+            margin: 0;
+        }
+
+        html {
+            color: #888;
+            display: table;
+            font-family: sans-serif;
+            height: 100%;
+            text-align: center;
+            width: 100%;
+        }
+
+        h1 {
+            color: #555;
+            font-size: 2em;
+            font-weight: 400;
+        }
+
+        .nofound .content .btn {
+            border: 2px solid;
+            border-color: #0054a5;
+            border-radius: 4px;
+            background-color: transparent;
+            color: #0054a5;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 26px;
+            padding: 10px 13px;
+            text-transform: uppercase;
+            -o-transition: all .4s linear;
+            transition: all .4s linear;
+            text-decoration: none;
+        }
+
+        .nofound .content .btn:hover {
+            background-color: #0054a5;
+            color: #fff;
+        }
+
+        /* notfound page css */
+        .nofound {
+            position: relative;
+            height: 100vh;
+            padding: 0 15px;
+        }
+
+        .nofound .content {
+            position: relative;
+            text-align: center;
+            max-width: 700px;
+            background-color: #fff;
+            box-shadow: 0 3px 10px #dce3eb;
+            border-radius: 5px;
+            width: 100%;
+            padding: 50px;
+            overflow: hidden;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .nofound .content img {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        @media (max-width: 480px) {
+            .nofound .content img {
+                left: -16px;
+                top: 100px;
+            }
+        }
+
+        .nofound .content .inner {
+            position: relative;
+            z-index: 2;
+        }
+
+        .nofound .content .inner h5 {
+            text-transform: uppercase;
+            color: #000;
+            margin-bottom: 15px;
+            height: 100px;
+            font-size: 18px;
+            font-family: 'Muli' !important;
+        }
+
+        @media (max-width: 480px) {
+            .nofound .content .inner h5 {
+                height: 90px;
+            }
+        }
+
+        .nofound .content .inner .text {
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        .nofound .content .inner .text span {
+            font-size: 150px;
+            text-shadow: -8px 0 0 #000000;
+            margin-right: -20px;
+            line-height: 0;
+            color: #0054a5;
+            font-weight: 700;
+        }
+
+        .nofound .content .btn-outer {
+            margin-top: 15px;
+        }
+
+
+
+        .nofound .content h4 {
+            color: #444444;
+            font-size: 16px;
+            line-height: 24px;
+            font-family: 'Muli' !important;
+        }
+
+        @media (max-width: 767px) {
+            .nofound .content .inner .text span {
+                font-size: 150px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .nofound .content .inner .text span {
+                font-size: 120px;
+            }
+        }
+
+        .nofound .content .inner .btn-outer {
+            padding-top: 20px;
+        }
+
+        @media (max-width: 992px) {
+            .nofound {
+                padding: 100px 20px;
+                height: auto;
+            }
+
+            .hide-lg {
+                display: none;
+            }
+
+            .nofound .content {
+                position: inherit;
+                left: inherit;
+                top: inherit;
+                transform: none;
+                margin: 0 auto;
+                width: auto;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .nofound {
+                padding: 50px 20px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <section class="nofound">
+        <div class="content">
+            <div class="inner">
+                <h5>Oops! Page not found</h5>
+                <div class="text"><span class="h1">4</span><span class="h1">0</span><span class="h1">4</span>
+                </div>
+                <h4>We are sorry, but the page you requested was not found</h4>
+                <div class="btn-outer">
+                    <a href="https://engineerbabu.com" class="btn btn-primary">Go to Homepage</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+<!-- IE needs 512+ bytes: https://blogs.msdn.microsoft.com/ieinternals/2010/08/18/friendly-http-error-pages/ -->

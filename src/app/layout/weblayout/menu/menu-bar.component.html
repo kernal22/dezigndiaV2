@@ -1,0 +1,13 @@
+<div class="collapse navbar-collapse" id="navbar-collapse">
+    <ul id="menu" class="menu navbar-nav mx-auto">
+        <li class="nav-item dropdown" *ngFor="let menu of menuItems">
+            <a *ngIf="menu.type=='link'" href="{{menu?.link}}" class="nav-link">{{menu?.title}}</a>
+            <ng-container *ngIf="menu.type=='sub'">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" (mouseenter)="show=1;" (mouseout)="show=0;">{{menu?.title}}</a>
+                <div [ngClass]="{'show': show==1}" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a *ngFor="let child of menu.children" class="dropdown-item" href="{{child.path}}">{{child.title}}</a>
+                </div>
+            </ng-container>
+        </li>
+    </ul>
+</div>

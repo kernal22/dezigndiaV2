@@ -1,0 +1,66 @@
+<div class="gradient-wrapper home-header">
+<!--Navbar: START-->
+  <nav id="navbar-main" class="navbar fixed-top navbar-expand-lg animated">
+      <div class="container">
+          <!--Navbar Brand Image-->
+          <a class="navbar-brand" href="/">
+            <img src="assets/img/logo/dezWhi.png" class="img-responsive _logo" *ngIf="_hide">
+            <img src="assets/img/logo/DezPurpleNn.png" class="img-responsive _logo1" *ngIf="!_hide">
+          </a>
+          <button class="navbar-toggler collapsed" type="button" id="navbar-toggle-button" (click)="toggleMenu()">
+                  <span class="icon-bar top-bar"></span>
+                  <span class="icon-bar middle-bar"></span>
+                  <span class="icon-bar bottom-bar"></span>
+              </button>
+          <div class="collapse navbar-collapse mCustomScrollbar _mCS_1 mCS-autoHide mCS_no_scrollbar" id="navbarNav"><div id="mCSB_1" class="mCustomScrollBox mCS-minimal mCSB_vertical mCSB_outside" tabindex="0"><div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" dir="ltr">
+              <ul class="navbar-nav ml-auto">
+                <ng-container *ngFor="let menu of menuItems">
+                    <li class="nav-item active" *ngIf="menu.type=='link'">
+                        <a class="nav-link" [routerLink]="[menu.path]" *ngIf= "menu.name != 'contact us'">{{menu.name | uppercase}}
+                            <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" [routerLink]="[menu.path]" *ngIf= "menu?.name == 'contact us'" data-toggle="modal" data-target="#exampleModal">{{menu.name | uppercase}}
+                        <span class="sr-only">(current)</span></a>
+                        <modal-box></modal-box>
+                    </li>
+                    <li class="nav-item active dropdown-link" *ngIf="menu.type=='sub'">
+                        <a class="nav-link">{{menu.name | uppercase}}<i class="fa fa-angle-down" aria-hidden="true"></i></a> 
+                        <ul class="sub-dropdown w-200">
+                             <li class="nav-item" *ngFor="let child of menu.children">
+                                <a class="nav-link" (hover)="onHover()" style="color: rgb(255, 255, 255);">{{child.name}}</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ng-container>
+                  <li>
+                      <button  class="btn button start-a-project-button drift-open-chat">Talk to an Expert</button>
+                  </li>
+              </ul>
+          </div></div><div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-minimal mCSB_scrollTools_vertical"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger"><div class="mCSB_dragger_bar" style="line-height: 50px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div>
+      </div>
+  </nav>
+  <section class="header home-header" id="_dzheader">
+        <div class="row">
+           <div class="content-wrapper-relative
+              header-content col-lg-12">
+              <div class="header-text padding-top-50 col-lg-7 _banner">
+                 <p class="header-heading animated fadeInDown slow ft-600"><b>Building Dreams for 100+ Startups</b><br> Best Digital Innovation &amp; Experience <br></p>
+                 <p class="header-heading animated fadeInDown slow ft-600 _dezcursive"><b>We craft beautiful, scalable products</b><br> with loads of Coffee, Beer &amp; Creativity <br>for better Tomorrow! <br></p>
+                 <p style="font-size: 30px;">We're awesome @ <strong class="_deztite"></strong></p>
+                 <a class="no-link-style" href="case-studies.html"><button class="view-case-studies-btn
+                    hollow-white-btn
+                    button-shadow animated
+                    fadeInDown slow">View All Case Studies </button></a>
+              </div>
+
+              <div class="header-text col-lg-7 _banner _bannertwo">
+                    <p class="header-heading animated fadeInDown slow ft-600 _dezcursive"><b>We craft beautiful, scalable products</b><br> with loads of Coffee, Beer &amp; Creativity <br>for better Tomorrow! <br></p>
+                 </div>
+
+              <div class="symbols-pulse active">
+                 <div class="pulse-x"></div>
+              </div>
+           </div>
+        </div>
+     </section>
+  </div>
+  <!--Navbar: END-->
