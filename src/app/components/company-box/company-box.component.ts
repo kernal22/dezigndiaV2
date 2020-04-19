@@ -8,7 +8,7 @@ import {BoxInterface} from '../../_models/box';
 
 export class CompanyBoxComponent implements OnInit {
 
-    @Input() data: Array<any>;
+    @Input() companybox: Array<any>;
 
     constructor() {
 

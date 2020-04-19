@@ -11,6 +11,7 @@ export class AndroidDevelopmentComponent implements OnInit {
     public serviceList: Array<BoxInterface>;
     public portfolia: Array<any>;
     public timeline: Array<any>;
+    public companybox: Array<any>;
 
     constructor(private _changeHeader: ChangeHeaderService) {
 
@@ -44,7 +45,16 @@ export class AndroidDevelopmentComponent implements OnInit {
             {badgeColoe: 'purple', heading: 'Multiple Sales Channels', text: 'Android apps can be deployed in various ways. One doesn’t need to depend on a single market but can use third-party application marketplace (especially in Google Android Market)'},
             {badgeColoe: 'voilet', heading: 'Low Investment &amp; High ROI', text: 'Android provides freely its Software Development Kit (SDK) to the developer community which minimizes the development and licensing costs.'},
             {badgeColoe: 'purple', heading: 'Low Investment &amp; High ROI', text: 'Android provides freely its Software Development Kit (SDK) to the developer community which minimizes the development and licensing costs.'}
-        ]
+        ];
+
+        this.companybox = [
+            {content: 'sdfghjkljgffghjk gchgcghc' , source: ''},
+            {content: 'sdfghjkljgffghjk gchgcghc' , source: ''},
+            {content: 'sdfghjkljgffghjk gchgcghc' , source: ''},
+            {content: 'sdfghjkljgffghjk gchgcghc' , source: ''},
+            {content: 'sdfghjkljgffghjk gchgcghc' , source: ''},
+            {content: 'sdfghjkljgffghjk gchgcghc' , source: ''}
+        ];
     }
 }
 

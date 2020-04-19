@@ -2,7 +2,7 @@
     <div class="container">
         <div class="inner-sec">
             <h1>World's most widely used applications which have been built using <u>{{stackname}}</u></h1>
-                <companybox-component></companybox-component>
+                <companybox-component [companybox]="companybox"></companybox-component>
         </div>
     </div>
 </section>
@@ -32,14 +32,17 @@
     </div>
 </section>
     
-<section class="quote-btn-sec">
+    
+<app-timeline [timeline]="timeline" [stackname]="stackname"></app-timeline>
+
+
+<!-- <section class="quote-btn-sec">
     <div class="container">
     <h1> Do you also want to build your Mobile app in {{stackname}}?</h1>
     <a class="quotebtn drift-open-chat" title="Get a Quote Now ">Get a Quote Now </a>
     </div>
-</section>
-    
-<app-timeline [timeline]="timeline" [stackname]="stackname"></app-timeline>
+</section> -->
+
 
 <section class="php_build_projects">
     <div class="page-header">
@@ -52,7 +55,7 @@
     
 <section class="services_section">
         <div class="page-header">
-            <h2>Benefits of hiring dedicated {{stackname}} Developers from Dezigndia</h2>
+            <h2>Why You should work with Dezigndia</h2>
         </div>
         <div class="container">
             <div class="row">
@@ -62,7 +65,7 @@
                         <img src="img/technologypages/serviceicon.png">
                     </div>
                     <div class="col-sm-10 col-xs-10">
-                        <h4>Round the clock support</h4>
+                        <h4>We build Scalable Product</h4>
                         <p>Be assured of round the clock support; our {{stackname}} developers will address all the issues related to loading times and ensure efficient loading times.</p>
                     </div>
                 </div>
@@ -71,7 +74,7 @@
                         <img src="img/technologypages/savemoneytime.png">
                     </div>
                     <div class="col-sm-10 col-xs-10">
-                        <h4>Save time and money</h4>
+                        <h4>Clean & Efficient Code</h4>
                         <p>Hiring a dedicated {{stackname}} developer from Dezigndia is cost-effective. Our hiring model best suits startups and SMEs.
                         </p>
                         <p>
@@ -85,7 +88,7 @@
                         <img src="img/technologypages/flexiblehiring.png">
                     </div>
                     <div class="col-sm-10 col-xs-10">
-                        <h4>Flexible hiring</h4>
+                        <h4>Intuitive Product Design & UX</h4>
                         <p>It allows hiring {{stackname}} developers dedicatedly when you don’t want them to hire for full time. You can relieve them once the work is done or can increase and decrease your team size at any stage of the project.
                         </p>
                     </div>
@@ -95,7 +98,7 @@
                         <img src="img/technologypages/clientstisfaction.png">
                     </div>
                     <div class="col-sm-10 col-xs-10">
-                        <h4>100% client satisfaction</h4>
+                        <h4>Help Strategise Business Growth</h4>
                         <p>Here, client satisfaction is the primary thing. If our client is not satisfied, we too are not satisfied.
                         </p>
                     </div>

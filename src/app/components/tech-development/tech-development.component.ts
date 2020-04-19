@@ -11,17 +11,18 @@ export class TechDevelopmentComponent implements OnInit, OnChanges, AfterViewIni
     @Input() portfolia: Array<any>;
     @Input() serviceList: Array<any>;
     @Input() timeline: Array<any>;
+    @Input() companybox: Array<any>;
 
     constructor() {
 
     }
     ngOnInit() {
-        console.log(this.data, 12);
+        console.log(this.companybox, 12);
     }
     ngOnChanges() {
-        console.log(this.data, 13);
+        // console.log(this.data, 13);
     }
     ngAfterViewInit() {
-        console.log(this.data, 14);
+        // console.log(this.data, 14);
     }
 }
