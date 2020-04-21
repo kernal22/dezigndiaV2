@@ -9,8 +9,8 @@ export const routes: Routes = [
         component: WebLayoutComponent,
         children: [
             {path: 'home', component: HomeComponent},
+            {path: '', redirectTo: '/home', pathMatch: 'full'},
             {path: 'service', loadChildren: './services/services.module#ServiceModule'},
-            {path: '', redirectTo: 'home'}
         ]
     }
 ]

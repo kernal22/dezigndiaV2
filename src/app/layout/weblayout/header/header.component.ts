@@ -3,8 +3,6 @@ import { GoogleLoginProvider, FacebookLoginProvider, AuthService } from 'angular
 import * as $ from 'jquery';
 import Typed from 'typed.js';
 
-import {ModalComponent} from '../../../components/modal-box/modal.component';
-
 import {SocialUsers} from '../../../_models/social-login-users';
 
 import {HttpMethodsService} from '../../../_services/http-method.service';
@@ -20,7 +18,6 @@ import {ChangeHeaderService} from '../../../_services/change-header.service';
 })
 export class HeaderComponent implements OnInit, AfterViewInit {
     @ViewChild('search') search : ElementRef;
-    @ViewChild(ModalComponent) modalComponent : ModalComponent;
 
     private socialUser = new SocialUsers();
     public response;
