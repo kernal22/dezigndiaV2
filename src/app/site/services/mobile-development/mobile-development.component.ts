@@ -12,6 +12,7 @@ export class AndroidDevelopmentComponent implements OnInit {
     public portfolia: Array<any>;
     public timeline: Array<any>;
     public companybox: Array<any>;
+    public blogbox: Array<any>;
 
     constructor(private _changeHeader: ChangeHeaderService) {
 
@@ -41,19 +42,22 @@ export class AndroidDevelopmentComponent implements OnInit {
         ];
 
         this.timeline = [
-            {badgeColoe: 'voilet', heading: 'Low Investment &amp; High ROI', text: 'Android provides freely its Software Development Kit (SDK) to the developer community which minimizes the development and licensing costs.'},
-            {badgeColoe: 'purple', heading: 'Multiple Sales Channels', text: 'Android apps can be deployed in various ways. One doesn’t need to depend on a single market but can use third-party application marketplace (especially in Google Android Market)'},
-            {badgeColoe: 'voilet', heading: 'Low Investment &amp; High ROI', text: 'Android provides freely its Software Development Kit (SDK) to the developer community which minimizes the development and licensing costs.'},
-            {badgeColoe: 'purple', heading: 'Low Investment &amp; High ROI', text: 'Android provides freely its Software Development Kit (SDK) to the developer community which minimizes the development and licensing costs.'}
+            {badgeColoe: 'voilet', heading: 'Open Source Technology', text: 'Architecture of Android SDK is open-source which means you can actually interact with the community for the upcoming expansions of android mobile application development'},
+            {badgeColoe: 'purple', heading: 'Multi-network distribution', text: 'Android apps can be deployed in various ways. One doesn’t need to depend on a single market but can use third-party application marketplace (especially in Google Android Market)'},
+            {badgeColoe: 'voilet', heading: 'Easily Adoptable Technology', text: 'Android applications are scripted in Java language with the help of a rich set of libraries hence any Java developer can build Android applications making it very easy to adopt'},
+            {badgeColoe: 'purple', heading: 'Low Investment & High ROI', text: 'Android provides freely its Software Development Kit (SDK) to the developer community which minimizes the development and licensing costs.'}
         ];
 
         this.companybox = [
-            {content: 'sdfghjkljgffghjk gchgcghc' , source: ''},
-            {content: 'sdfghjkljgffghjk gchgcghc' , source: ''},
-            {content: 'sdfghjkljgffghjk gchgcghc' , source: ''},
-            {content: 'sdfghjkljgffghjk gchgcghc' , source: ''},
-            {content: 'sdfghjkljgffghjk gchgcghc' , source: ''},
-            {content: 'sdfghjkljgffghjk gchgcghc' , source: ''}
+            {content: 'Hangout' , source: '../assets/img/company/logo1.svg' , desc: 'A google product, widely used for realtime chat & video conferencing'},
+            {content: 'Audible' , source: '../assets/img/company/logo2.svg' , desc: 'An Amazon product, gives you access to millions of audiobooks'},
+            {content: 'Google Pay' , source: '../assets/img/company/logo3.svg' , desc: 'A Google payment product, enables you to pay directly to your bank account'},
+            {content: 'Play Music' , source: '../assets/img/company/logo4.svg' , desc: 'Google music application, gives acess to millions of latest tracks'}
+        ];
+
+        this.blogbox = [
+            {source: '../assets/img/blog/b1.png' , desc: 'Blog 1'},
+            {source: '../assets/img/blog/b1.png' , desc: 'Blog 2'}
         ];
     }
 }

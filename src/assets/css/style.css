@@ -573,7 +573,7 @@ template {
     display: flex;
 }
 .hirecol {
-    flex: 0 0 33.33%;
+    flex: 0 0 20%;
 }
 .navheading {
    
@@ -582,7 +582,7 @@ template {
 }
 .navheading span{
     color:#000;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 800;
 }
 .hirecol li {
@@ -786,7 +786,7 @@ template {
 .blue-strip-heading p {
     margin-bottom: 0px;
     color: #fff;
-    font-size: 36px;
+    font-size: 35px;
     font-weight: 300;
     line-height: 52px;
 }
@@ -4172,8 +4172,31 @@ a#OpenForm {
     background-color: #fff;
     padding: 15px 30px;
     border-radius: 5px;
-    height:275px;
+    height:250px;
+    width: 250px;
 }
+
+.blog-col {
+    text-align: center;
+    /* box-shadow: 0 0 10px #e4dfdf; */
+    background-color: #fff;
+    padding: 5px 10px;
+    /* border-radius: 10px; */
+    height:280px;
+    width: 280px;
+}
+
+
+.blog-col img {
+    padding: 0;
+}
+
+.blog-col p {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
 .industrypage .companies-col {
     height: 187px;
 }
@@ -4925,6 +4948,7 @@ section.top_companies {
 }
 .full-section.row .col-sm-2.col-xs-2 {
     padding-right: 10px;
+    padding-top: 10px;
 }
 .full-section.row .col-sm-10.col-xs-10 {
     padding-left: 0;

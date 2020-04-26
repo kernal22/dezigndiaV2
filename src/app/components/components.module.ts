@@ -7,6 +7,7 @@ import {CardBoxComponent} from './card-box/card-box.component';
 import {TechDevelopmentComponent} from './tech-development/tech-development.component';
 import {TimelineComponent} from './timeline/timeline.component';
 import {CompanyBoxComponent} from './company-box/company-box.component';
+import {BlogBoxComponent} from './blog-box/blog-box.component';
 
 @NgModule({
     declarations: [
@@ -14,7 +15,8 @@ import {CompanyBoxComponent} from './company-box/company-box.component';
         CardBoxComponent,
         TechDevelopmentComponent,
         TimelineComponent,
-        CompanyBoxComponent
+        CompanyBoxComponent,
+        BlogBoxComponent
     ],
     imports: [
         CommonModule,
@@ -26,7 +28,8 @@ import {CompanyBoxComponent} from './company-box/company-box.component';
         CardBoxComponent,
         TechDevelopmentComponent,
         TimelineComponent,
-        CompanyBoxComponent
+        CompanyBoxComponent,
+        BlogBoxComponent
     ],
     providers: [
 

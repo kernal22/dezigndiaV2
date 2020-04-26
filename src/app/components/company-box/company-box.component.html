@@ -1,9 +1,9 @@
 <div class="row">
-    <div class="col-md-4" *ngFor="let i of companybox" style="margin-bottom: 15px;">
+    <div class="col-md-3" *ngFor="let i of companybox" style="margin-bottom: 15px;">
     <div class="companies-col">
-        <img src="{{i.source}}"> 
-        <p>{{i.content}}
-        </p>
+        <img src="{{i.source}}" style="width: 25%; filter: drop-shadow(0.5px 1px 1px #000);"> 
+        <h5><p>{{i.content}}</p></h5>
+        <p style="font-size: 14px;">{{i.desc}}</p>
     </div>
     </div>
 </div>
