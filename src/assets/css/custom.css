@@ -88,3 +88,11 @@ a:active,
 a:focus{
     background-color: transparent !important;
 }
+
+:focus {
+    outline: none !important;
+}
+
+#service-list >li > a {
+    text-decoration: none;
+}

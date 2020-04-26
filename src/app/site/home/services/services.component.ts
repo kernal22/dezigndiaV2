@@ -8,21 +8,61 @@ import {BoxInterface} from '../../../_models/box';
     templateUrl: './services.component.html'
 })
 export class ServiceComponent implements OnInit {
-    public serviceList: Array<BoxInterface>;
+    public serviceList: Array<any>;
 
     constructor() {
         
     }
     ngOnInit() {
         this.serviceList = [
-            {title: "Mobile Development", icon: "mobile"},
-            {title: "Web Development", icon: "laptop"},
-            {title: "Cloud Development", icon: "cloud"},
-            {title: "AI & Blockchain", icon: "connectdevelop"},
-            {title: "UI/UX Design", icon: "lightbulb-o"},
-            {title: "Product Strategy", icon: "gears"},
-            {title: "Business Consultancy", icon: "handshake-o"},
-            {title: "Digital Marketing", icon: "bar-chart"}
+            {title: "Mobile Development", icon: "mobile", list: [
+                {title: "Android Development", "link": "/service/android-development"},
+                {title: "React- Native Development"},
+                {title: "Hybrid Development"},
+                {title: "Ios Development"}
+            ]},
+            {title: "Web Development", icon: "laptop", list: [
+                {title: "Angular Development"},
+                {title: "React Development"},
+                {title: "PHP Development"},
+                {title: "Python Development"}
+            ]},
+            {title: "Cloud Development", icon: "cloud", list: [
+                {title: "AWS implementation"},
+                {title: "Machine Learning"},
+                {title: "AI"},
+                {title: "Serverless implementation"}
+            ]},
+            {title: "AI & Blockchain", icon: "connectdevelop", list: [
+                {title: "one"},
+                {title: "one"},
+                {title: "one"},
+                {title: "one"}
+            ]},
+            {title: "UI/UX Design", icon: "lightbulb-o", list: [
+                {title: "one"},
+                {title: "one"},
+                {title: "one"},
+                {title: "one"}
+            ]},
+            {title: "Product Strategy", icon: "gears", list: [
+                {title: "one"},
+                {title: "one"},
+                {title: "one"},
+                {title: "one"}
+            ]},
+            {title: "Business Consultancy", icon: "handshake-o", list: [
+                {title: "one"},
+                {title: "one"},
+                {title: "one"},
+                {title: "one"}
+            ]},
+            {title: "Digital Marketing", icon: "bar-chart", list: [
+                {title: "one"},
+                {title: "one"},
+                {title: "one"},
+                {title: "one"}
+            ]}
         ];
     }
     public openList() {

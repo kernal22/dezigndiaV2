@@ -9,13 +9,7 @@
         <h2 class="service-title-text">{{d.title}}
         </h2>
         <ul class="servies-list mobile-collapse-list" id="service-list">
-            <li>Android and iOS App Development
-            </li>
-            <li>Flutter App Development
-            </li>
-            <li>React Native Development
-            </li>
-            <li>Beautiful APP MVP for Investment
+            <li *ngFor="let l of d.list"><a [routerLink]="l.link">{{l.title}}</a>
             </li>
         </ul>
     </div>

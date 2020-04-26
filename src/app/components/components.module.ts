@@ -1,6 +1,7 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {ReactiveFormsModule, FormsModule} from '@angular/forms';
+import {RouterModule} from '@angular/router';
 
 import {BoxComponent} from './box/box.component';
 import {CardBoxComponent} from './card-box/card-box.component';
@@ -21,7 +22,8 @@ import {BlogBoxComponent} from './blog-box/blog-box.component';
     imports: [
         CommonModule,
         FormsModule,
-        ReactiveFormsModule
+        ReactiveFormsModule,
+        RouterModule
     ],
     exports: [
         BoxComponent,
