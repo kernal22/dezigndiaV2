@@ -16,7 +16,7 @@ export class ServiceComponent implements OnInit {
     ngOnInit() {
         this.serviceList = [
             {title: "Mobile Development", icon: "mobile", list: [
-                {title: "Android Development", "link": "/service/android-development"},
+                {title: "Android Development", "link": "/service/android-developement"},
                 {title: "React- Native Development"},
                 {title: "Hybrid Development"},
                 {title: "Ios Development"}

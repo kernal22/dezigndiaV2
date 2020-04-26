@@ -4178,12 +4178,12 @@ a#OpenForm {
 
 .blog-col {
     text-align: center;
-    /* box-shadow: 0 0 10px #e4dfdf; */
+    box-shadow: 0 0 10px #e4dfdf;
     background-color: #fff;
     padding: 5px 10px;
     /* border-radius: 10px; */
-    height:280px;
-    width: 280px;
+    height:260px;
+    width: 260px;
 }
 
 
@@ -4587,7 +4587,7 @@ section.timeline-sec {
     box-shadow: 0 0 10px #e4dfdf;
     background-color: #fff;
     border-radius: 13px;
-    height: 350px;
+    height: 330px;
     
     
 }
@@ -4617,6 +4617,7 @@ section.timeline-sec {
 .php_build_projects .bg-box {
     position: absolute;
     top: 50px;
+    left: 50%;
     background-color: #fff;
     padding: 15px;
     border-radius: 20%;
