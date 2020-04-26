@@ -12,6 +12,7 @@ export class TechDevelopmentComponent implements OnInit, OnChanges, AfterViewIni
     @Input() serviceList: Array<any>;
     @Input() timeline: Array<any>;
     @Input() companybox: Array<any>;
+    @Input() blogbox: Array<any>;
 
     constructor() {
 

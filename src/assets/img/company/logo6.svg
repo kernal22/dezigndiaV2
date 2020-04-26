@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <clipPath id="clip-logo4">
+      <rect width="800" height="800"/>
+    </clipPath>
+  </defs>
+  <g id="logo4" clip-path="url(#clip-logo4)">
+    <path id="Messenger" d="M417.224,93C239.816,93,96,226.99,96,392.277c0,94.182,46.711,178.191,119.711,233.051v114.11l109.374-60.4a343.149,343.149,0,0,0,92.139,12.516c177.407,0,321.224-133.99,321.224-299.277S594.631,93,417.224,93Zm31.923,403.026-81.8-87.788L207.73,496.026,383.306,308.479l83.8,87.788,157.619-87.788Z" transform="translate(-17 -16)" fill="#0084ff"/>
+  </g>
+</svg>

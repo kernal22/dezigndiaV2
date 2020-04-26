@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <clipPath id="clip-logo1">
+      <rect width="800" height="800"/>
+    </clipPath>
+  </defs>
+  <g id="logo1" clip-path="url(#clip-logo1)">
+    <g id="surface1" transform="translate(-1 163)">
+      <path id="Path_9" data-name="Path 9" d="M801,22,401,222,1,22V82.87l400,200,400-200Z" transform="translate(0 180.304)" fill="#37474f"/>
+      <path id="Path_10" data-name="Path 10" d="M560.714,225.678l61.009-30.5C563.5,85.609,448.28,11,315.6,11,180.21,11,63.219,88.791,6.21,201.957,66.819,118.67,164.714,64.322,275.6,64.322c121.044,0,226.748,64.748,285.113,161.357Z" transform="translate(85.399 0)" fill="#ff9100"/>
+      <path id="Path_11" data-name="Path 11" d="M381.373,172.774l61.148-30.644A239.952,239.952,0,0,0,231.79,17C132.869,17,47.964,76.843,11.2,162.3,52.364,106.6,118.208,70.322,192.59,70.322,271.6,70.322,340.956,111.087,381.373,172.774Z" transform="translate(167.175 98.348)" fill="#ff6e40"/>
+      <path id="Path_12" data-name="Path 12" d="M195.408,121.365l61.27-30.7C233.721,50.826,191.251,23,142.138,23,83.582,23,34.4,61.991,16.747,114.774a118.741,118.741,0,0,1,86.609-37.7c37.287,0,70.087,17.461,92.052,44.3Z" transform="translate(258.114 196.696)" fill="#ad1457"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <clipPath id="clip-logo3">
+      <rect width="800" height="800"/>
+    </clipPath>
+  </defs>
+  <g id="logo3" clip-path="url(#clip-logo3)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(101.585 101.585)">
+      <g id="Layer_1" data-name="Layer 1" transform="translate(0.415 0.415)">
+        <rect id="Rectangle_1" data-name="Rectangle 1" width="596" height="596" rx="50" fill="#0b86ca"/>
+        <path id="Path_1" data-name="Path 1" d="M12.128,106.539H74.092V306.477H12.128ZM43.73,7.19a35.939,35.939,0,1,1-25.486,10.6A35.939,35.939,0,0,1,43.73,7.19" transform="translate(152.645 140.853)" fill="#fff"/>
+        <path id="Path_2" data-name="Path 2" d="M13.117,16.765H72.809V44.029a65.269,65.269,0,0,1,58.866-32.221c61.964,0,74.564,41.309,74.564,95.218V216.7H144.274V120.038c0-23.133,0-53.083-32.221-53.083s-37.179,25.2-37.179,51.224v98.936H12.91Z" transform="translate(253.278 230.627)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
